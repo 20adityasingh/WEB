@@ -33,4 +33,72 @@ a{
     justify-content: center;
     border-radius: 100%;
     border: 1px solid white;
+    display: none;
+}
+
+
+.hero__section__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 320px;    
+}
+.zomato__logo{
+    height: auto;
+    width: 200px;
+}
+.hero__section__title{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-weight: 350;
+}
+.hero__section__input__container{
+    background-color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+}
+.location{
+    width: 35%;
+    border-right: 2px solid #e0e0e0;
+    border-bottom: 0;
+    border-left: 0;
+    border-top: 0;
+    padding: 5px;
+    outline: none;
+}
+.search{
+    width: 65%;
+    border: none;
+    padding: 5px;
+    outline: none;
+}
+@media only screen and (max-width:600px){
+    .user__icon{
+        display: flex;
+    }
+    .link{
+        display: none;
+    }
+    .hero__section{
+        min-height: 80vh;
+    }
+    .hero__section__container{
+        width: 100%;
+    }
+    .hero__section__input__container{
+        width:98%
+    }
+    .hero__section__title{
+        font-size:25px;
+        color: white;
+        text-align: center;
+        font-weight: 250;
+    }
 }
