@@ -79,6 +79,38 @@ a{
     padding: 5px;
     outline: none;
 }
+.we__offer{
+    margin: 3rem;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+}
+.we__offer_card{
+    border-radius: 10px;
+    
+    overflow: hidden;
+    border: 1px solid #e0e0e0;
+    transition: all 1ms ease;
+}
+.we__offer_card:hover{
+    transform: scale(1.1);
+    background-color: aqua;
+}
+.we__offer_card img{
+    width: 100%;
+    height: 170px;
+}
+.we__offer_content{
+    padding: 10px;
+}
+.we__offer_content h2{
+    font-size: 25px;
+    font-weight: 400;
+}
+
 @media only screen and (max-width:600px){
     .navbar{
         height: 85px;
