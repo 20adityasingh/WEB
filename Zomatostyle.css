@@ -21,7 +21,7 @@ a{
     color: white;
     text-decoration: none;
 }
-.nav__menu__container{
+.nav__menu_container{
     display: flex;
     gap: 30px;
 }
@@ -37,7 +37,7 @@ a{
 }
 
 
-.hero__section__container{
+.hero__section_container{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,13 +49,13 @@ a{
     height: auto;
     width: 200px;
 }
-.hero__section__title{
+.hero__section_title{
     font-size: 30px;
     color: white;
     text-align: center;
     font-weight: 350;
 }
-.hero__section__input__container{
+.hero__section_input_container{
     background-color: white;
     padding: 5px;
     display: flex;
@@ -80,6 +80,9 @@ a{
     outline: none;
 }
 @media only screen and (max-width:600px){
+    .navbar{
+        height: 85px;
+    }
     .user__icon{
         display: flex;
     }
@@ -89,13 +92,14 @@ a{
     .hero__section{
         min-height: 80vh;
     }
-    .hero__section__container{
+    .hero__section_container{
         width: 100%;
+        height: calc(80vh - 85px);
     }
-    .hero__section__input__container{
-        width:98%
+    .hero__section_input_container{
+        width:92%
     }
-    .hero__section__title{
+    .hero__section_title{
         font-size:25px;
         color: white;
         text-align: center;
