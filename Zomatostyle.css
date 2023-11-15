@@ -79,7 +79,7 @@ a{
     padding: 5px;
     outline: none;
 }
-.we__offer{
+.container__we_offer{
     margin: 3rem;
     width: 90%;
     display: flex;
@@ -90,7 +90,6 @@ a{
 }
 .we__offer_card{
     border-radius: 10px;
-    
     overflow: hidden;
     border: 1px solid #e0e0e0;
     transition: all 1ms ease;
@@ -109,6 +108,29 @@ a{
 .we__offer_content h2{
     font-size: 25px;
     font-weight: 400;
+}
+.container__collection h1{
+    font-weight: 600;
+}
+.sub__heading_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.sub__heading_container span:nth-child(2){
+    font-size: 15px;
+    color: #ff7e8b;
+    cursor: pointer;
+}
+.collection__cards_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1.25rem;
 }
 
 @media only screen and (max-width:600px){
