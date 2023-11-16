@@ -131,6 +131,49 @@ a{
     flex-wrap: wrap;
     gap: 0.5rem;
     margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+.collection__cards_container .card{
+    height: 300px;
+    min-width: 240px;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+    position: relative;
+}
+.Collection__card1{
+    background-image: url(/images/collection1.jpg);
+}
+.Collection__card2{
+    background-image: url(/images/collection2.jpg);
+}
+.Collection__card3{
+    background-image: url(/images/collection3.jpg);
+}
+.Collection__card4{
+    background-image: url(/images/collection4.jpg);
+}
+.overlays{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    border-radius: 10px;
+    background: linear-gradient(
+        to top,
+        rgba(234,33,122,1),
+        rgba(221,123,231,1) ,
+        rgba(200,21,22,1) ,
+    );
+}
+.content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    padding: 12px 16px;
+    font-size: 0.9rem;
 }
 
 @media only screen and (max-width:600px){
