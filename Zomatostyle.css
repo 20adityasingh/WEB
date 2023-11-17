@@ -293,7 +293,7 @@ a{
 }
 .section1_buttoncontainer{
     display: flex;
-    /* gap: 1rem; */
+    gap: 1rem;
 }
 .section1_buttoncontainer button{
     padding: 5px;
@@ -315,6 +315,48 @@ a{
     gap: 1rem;
     padding: 3rem 0;
 }
+.section2__content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.section2__content h5{
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 5px;
+    letter-spacing: 0.8px;
+}
+.section2__content a{
+    color: gray;
+    text-decoration: none; 
+    font-size: 12.5px;
+    font-weight: 300;
+}
+.section2__content a:hover{
+    color: black;
+}
+.sociallink{
+    display: flex;
+    gap: 0.8rem;
+}
+.sociallink button{
+    background-color: black;
+    border: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.sociallink button i{
+    color: white;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2__social img{
+    width: 100%;
+}
 
 
 @media only screen and (max-width:1300px){
@@ -332,6 +374,9 @@ a{
     .semicontainer{
         width: 95%;
         flex-direction: column;
+    }
+    .section2__content{
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 @media only screen and (max-width:600px){
@@ -359,5 +404,8 @@ a{
         color: white;
         text-align: center;
         font-weight: 250;
+    }
+    .section2__content{
+        grid-template-columns: repeat(2, 1fr);
     }
 }
