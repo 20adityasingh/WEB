@@ -335,6 +335,11 @@ a{
 .section2__content a:hover{
     color: black;
 }
+.section2__social{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
 .sociallink{
     display: flex;
     gap: 0.8rem;
