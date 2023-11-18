@@ -234,8 +234,6 @@ a{
 .Input__container{
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
 }
 .Input__container button{
     width: auto;
@@ -243,13 +241,13 @@ a{
     background-color: #f34657;
     border-radius: 5px;
     color: white;
-    padding: 10px;
+    padding: 5px;
     margin: 5px;
 }
 .Input__container input{
     width: 60%;
     margin: 5px;
-    padding: 10px;
+    padding: 5px;
 }
 .download__container{
     width: 100%;
